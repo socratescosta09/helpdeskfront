@@ -35,7 +35,26 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    // Forms
+    FormsModule,
+    ReactiveFormsModule,
+    // Requisições http
+    HttpClientModule,
+    // Angular Material
+    MatFormFieldModule,
+    MatPaginatorModule,
+    MatCheckboxModule,
+    MatSnackBarModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatButtonModule,
+    MatSelectModule,
+    MatInputModule,
+    MatRadioModule,
+    MatTableModule,
+    MatIconModule,
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
