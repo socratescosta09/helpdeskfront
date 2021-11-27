@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppComponent } from './app.component'; 
-
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Para trabalhar com formulários no Angular 12
@@ -27,17 +26,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 
-// Componentes do projeto
-import { NavComponent } from './components/nav/nav.component';
-
-
 @NgModule({
   declarations: [
-    AppComponent,
-    NavComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     // Forms
     FormsModule,
@@ -58,8 +53,8 @@ import { NavComponent } from './components/nav/nav.component';
     MatTableModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
-  ],
+    MatCardModule,
+  ], 
   providers: [],
   bootstrap: [AppComponent]
 })
