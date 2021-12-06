@@ -34,3 +34,7 @@ p {
     margin-bottom: auto;
     opacity: .5;
 }
+
+mat-ico {
+    opacity: .8;
+}
