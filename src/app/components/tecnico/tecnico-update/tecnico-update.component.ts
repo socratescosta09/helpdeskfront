@@ -57,7 +57,7 @@ export class TecnicoUpdateComponent implements OnInit {
           this.toast.error(element.message);
         });
       } else {
-        this.toast.error(ex.error.message);
+          this.toast.error(ex.error.message);
       }
     })
   }
