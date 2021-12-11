@@ -2,7 +2,7 @@
     <form class="form">
 
         <h1 class="fullWidth">Deletar Técnico</h1>
-        <img class="fullWidth" src="assets/img/img_tecnico_create.svg" alt="Help Desk - Dicas de um DEV">
+        <img class="fullWidth" src="assets/img/img_create.svg" alt="Help Desk">
 
         <section class="section">
             <mat-checkbox [disabled]="true" class="margin" color="primary">Admin</mat-checkbox>
@@ -30,7 +30,7 @@
 
         <mat-form-field class="fullWidth" appearance="legacy">
             <mat-label>Senha</mat-label>
-            <input [(ngModel)]="tecnico.senha" name="senha" [disabled]="true" matInput>
+            <input [(ngModel)]="tecnico.senha" name="senha" [disabled]="true" matInput type="password">
             <mat-icon matSuffix>password</mat-icon>
         </mat-form-field>
 
